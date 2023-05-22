@@ -10,22 +10,23 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
-<body>
+<body background="https://www.thequizopedia.com/blog/wp-content/uploads/2020/02/top-view-math-science-fractions-with-copy-space_23-2148416085-min.jpg">
 	<center>
-		<h2 style="color: red">Math Quiz</h2>
-		<div col-lg-4 col-sm-8 col-xs-11 login_divl class="label-danger">
+		<div id="login_divl">
+			<h2 style="color: 5C469C">Math Quiz</h2>
 			<h3>Player 1 Login for the Game</h3>
 			<label>Username:</label>
-			<input placeholder="Enter your Name Here" id="input1" class="form-control">
-		</div>
-		<br>
-		<div col-lg-4 col-sm-8 col-xs-11 login_divl class="label-danger">
+			<input placeholder="Enter your Name Here" id="input1">
 			<h3>Player 2 Login for the Game</h3>
 			<label>Username:</label>
-			<input placeholder="Enter your Name Here" id="input2" class="form-control">
+			<input placeholder="Enter your Name Here" id="input2">
+			<br>
+			<br>
+			<br>
+			<button id="login" onclick="addUser()">Login</button>
 		</div>
 		<br>
-		<button style="width:30%" class="btn-danger" id="login" onclick="addUser()">Login</button>
+		<hr>
 	</center>
 </body>
 <script src="main.js"></script>

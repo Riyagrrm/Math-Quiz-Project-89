@@ -10,28 +10,35 @@
 
 <link rel="stylesheet" type="text/css" href="game.css">
 </head>
-<body>
+<body background="https://www.thequizopedia.com/blog/wp-content/uploads/2020/02/top-view-math-science-fractions-with-copy-space_23-2148416085-min.jpg">
     <h4 id="player1Name"></h4> <span id="player1Score"></span>
     <br>
     <h4 id="player2Name"></h4> <span id="player2Score"></span>
     <div class="container"></div>
     <center>
-        <h2 style="color: red">Math Quiz!</h2>
         <br>
-        <h3 id="player_question"></h3>
-        <h3 id="player_answer"></h3>
+        <div id="quiz_div">
+            <br>
+			<h2 style="color: 5C469C">Math Quiz</h2>
+            <h3 id="player_question"></h3>
+            <h3 id="player_answer"></h3>
+			<br>
+            <div id="output"></div>
+            <br>
+            <label>Number 1</label>
+            <br>
+            <input type="text" id="number1" placeholder="Enter a Number" class="divStyle">
+            <br>
+            <br>
+            <label>Number 2</label>
+            <br>
+            <input type="text" id="number2" placeholder="Enter a Number" class="divStyle">
+            <br>
+            <br>
+            <button onclick="send()" style="width:30%" id="send">Send</button>
+		</div>
         <br>
-        <div id="output"></div>
-        <br>
-        <label>Number 1</label>
-		<br>
-        <input type="text" id="word" class="form-control" placeholder="Enter a Number">
-        <br>
-        <label>Number 2</label>
-		<br>
-        <input type="text" id="word" class="form-control" placeholder="Enter a Number">
-        <br>
-        <button onclick="send()" class="btn-danger" style="width:30%">Send</button>
+        <hr>
     </center>
 </body>
 <script src="quiz.js"></script>
