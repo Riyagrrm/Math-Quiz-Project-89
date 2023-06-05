@@ -22,7 +22,7 @@ body
     border-style:inset;
     margin: 250px;
 }
-#login, #send
+#login, #send, #check
 {
     width: 30%;
     background-color: D4ADFC;
