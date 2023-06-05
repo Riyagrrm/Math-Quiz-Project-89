@@ -35,5 +35,10 @@ body
     border-radius: 20px;
     background-color: rgb(240, 248, 255,0.5);
     border-style:inset;
-    margin: 250px;
+    
+}
+#player_question,#player_answer,#player1_score,#player2_score
+{
+    color:aqua;
+    font-weight: bold;
 }
